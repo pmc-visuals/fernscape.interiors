@@ -1,0 +1,174 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+}
+
+.bg-custom {
+    background-color: #c1d9cb !important; 
+}
+
+.logo {
+    width: 120px; 
+}
+
+.navlink:link, .navlink:visited {
+    font-family: 'Quicksand', sans-serif;
+    color: #244136 !important; 
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.navlink:hover {
+    opacity: 0.7;
+}
+
+
+h1 {
+    font-family: 'Alice', serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #0f5138
+}
+
+h2 {
+    font-family: 'Alice', serif;
+    font-size: 35px;
+    font-weight: 600;
+    color: #0f5138
+}
+
+h3 {
+    font-family: 'Alice', serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: #b06b34
+}
+
+h4 {
+    font-family: 'Alice', serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #0f5138
+}
+
+h5 {
+    font-family: 'Alice', serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #FFFFFF
+}
+
+
+.btn-custom {
+
+    background-color: #b06b34;
+    color: #FFFFFF;
+    font-family: 'Alice', serif;
+    font-weight: 700px;
+    font-size: 18px;
+}
+
+
+.btn-custom:hover {
+    background-color: #a1572d;
+    color: #FFFFFF;
+    transition: background-color 0.3s ease;
+}
+
+@media (min-width: 768px) {
+    .w-md-auto {
+        width: auto !important;
+    }
+}
+
+
+.w-85 {
+    width: 85% !important;
+}
+
+.mt-6 {
+    margin-top: 4rem !important;
+}
+
+
+
+.card-body1 {
+    background-color:#97beaa;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+    border-bottom-left-radius: 2%;
+    border-bottom-right-radius: 2%;
+}
+
+
+.quicksand-label {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    color: #244136;
+}
+
+.quicksand-input {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    color: #244136;
+}
+
+
+
+
+
+.service-icon {
+    width: 80px;
+    height: 80px;
+}
+
+
+
+
+
+
+
+
+footer {
+    background-color: #244136 !important; 
+    color: #ffffff !important;           
+}
+footer h2 {
+    font-family: 'Alice', serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+footer h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #ffffff !important;
+    
+}
+footer h4 {
+    font-family: 'Alice', serif;
+    color: #ffffff !important;
+}
+
+footer p, footer h6 {
+    font-family: 'Quicksand', sans-serif;
+    color: #ffffff !important;
+}
+
+.social-icon .bi {
+    color: #ea9f7c !important; 
+    font-size: 28px;
+}
+
+.social-icon:hover {
+    opacity: 0.8;
+}
